@@ -2,9 +2,9 @@ FROM ubuntu:18.04
 
 LABEL maintainer="Martin Helmich <martin@helmich.me>"
 
-ARG KUBECTL_VERSION=1.10.5
-ARG HELM_VERSION=2.9.1
-ARG DOCKER_VERSION=18.03.1-ce
+ARG KUBECTL_VERSION=1.12.2
+ARG HELM_VERSION=2.11.0
+ARG DOCKER_VERSION=18.06.1-ce
 
 RUN apt-get update && apt-get install -y curl
 
